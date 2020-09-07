@@ -27,7 +27,7 @@ const LinkState = (props) => {
 
     const code =
       state.links.length === 0
-        ? '<div style="height:240px">リンクを追加してください</div>'
+        ? '<div style="height:240px">リンクを追加してください。<br/>詳しい方法は[本アプリについて]をご覧ください。</div > '
         : state.links.reduce(
             (code, link) => code + beforeEachLink + link + afterEachLink,
             beforeAllLinks

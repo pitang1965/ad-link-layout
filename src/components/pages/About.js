@@ -7,11 +7,11 @@ const About = () => {
       <h1>このアプリについて</h1>
       <p>
         本ツールは複数のアフィリエイトリンク（タグ）を横並びさせるためのショートコードを生成します。
+        例えばAmazonのText+Imageリンクを3つ合成して次のような表示を行うコードを取得できます。
       </p>
       <div className='card' dangerouslySetInnerHTML={{ __html: SampleCode }} />
       <p>
-        例えばAmazonのText+Imageリンクを3つ合成して次のような表示を行うコードを取得できます。
-        例えば次のような流れです。
+        次のような流れで操作します。
       </p>
       <br/>
       <ol>
